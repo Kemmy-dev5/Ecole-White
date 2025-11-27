@@ -7,6 +7,7 @@
     text-decoration: none;
     outline: none;
     border: none;
+
     
 }
 ::selection{
@@ -49,6 +50,9 @@ button{
     --color-text2: white;
     --color-text3: #023047; 
     --color-hover : #824f14;
+}
+body,html{
+    overflow-x: hidden;
 }
 body{
     padding-top: 100px;
